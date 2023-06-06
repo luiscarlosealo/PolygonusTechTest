@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     float verticalInput;
 
     Vector3 moveDirection;
+    public Vector3 flatVel;
 
     Rigidbody rb;
 
@@ -91,9 +92,10 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
     }
 
-    private void SpeedControl()
+    public void SpeedControl()
     {
-        Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+        flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+        //Debug.Log("VELOCITY!!!" + flatVel.magnitude);
 
         // limit velocity 
         if(flatVel.magnitude > moveSpeed)
