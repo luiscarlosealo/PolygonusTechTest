@@ -39,13 +39,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Depth: 2.84
+    - _Depth_Fading: 2.81
+    - _Lerp: 0
     - _Normal_Strength: 0.29
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Reflection_Refraction: 0.2
     - _Refraction: 0.06
     - _Smoothness: 0.907
     - _Water_Lerp: 0.551
     m_Colors:
+    - _Albedo: {r: 0.83637416, g: 0.990566, b: 0.8741354, a: 1}
     - _UV1: {r: 50, g: 50, b: 0, a: 0}
     - _UV2: {r: 60, g: 70, b: 0, a: 0}
     - _Water_Speed_1: {r: -0.2, g: 0.1, b: 0, a: 0}
