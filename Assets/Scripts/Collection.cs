@@ -11,7 +11,6 @@ public class Collection : MonoBehaviour
         {
 
             Instantiate(collectionEffect, other.transform.position, other.transform.rotation);
-           
             Destroy(other.gameObject); 
 
         }
