@@ -39,11 +39,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Normal_Strength: 0.4
+    - _Normal_Strength: 0.29
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.9
-    - _Water_Lerp: 0.923
+    - _Refraction: 0.06
+    - _Smoothness: 0.907
+    - _Water_Lerp: 0.551
     m_Colors:
     - _UV1: {r: 50, g: 50, b: 0, a: 0}
     - _UV2: {r: 60, g: 70, b: 0, a: 0}
